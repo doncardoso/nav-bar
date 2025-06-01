@@ -5,6 +5,10 @@ body{
 }
 /* icono del menu */
 
+img{
+    width: 50px;
+    display: flex;
+}
 
 .material-symbols-outlined {
   font-variation-settings:
@@ -17,6 +21,7 @@ body{
 .collapsed{
     display: none;
 }
+
 
 nav{
     background-color: black;
@@ -50,6 +55,9 @@ nav .logo{
     min-width: 250px;
 }
 
+
+
+
 nav a{
     color: white;
     text-decoration: none;
@@ -63,19 +71,24 @@ nav a:hover{
 }
 
 
-nav .desktop{
+nav .desktop .logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    pad: 0 20px;
+    pad: 0 10px;
 
 }
 
-nav .desktop .primary,
-nav .desktop .secondary {
+
+
+nav .desktop  .primary ,
+nav .desktop  .secondary {
     display: flex;
 
 }
+
+
+
 
 nav .desktop .secondary.mini{
     display: none;
@@ -118,4 +131,6 @@ nav .desktop .secondary.mini{
     nav .movil{
         display: block;
     }
+
+   
 }
